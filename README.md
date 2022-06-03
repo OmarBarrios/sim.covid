@@ -1,5 +1,5 @@
 # sim.covid
-Infection simulator
+A contagion simulator made in java with functional programming.
 
 ## simulator start
 ![Ha ocurrido un error :(](https://github.com/OmarBarrios/sim.covid/blob/develop/src/main/java/edaii/simcovid/utils/Captura.PNG)
