@@ -1,0 +1,41 @@
+- Nombre: Mascarilla
+- Descripción: Una persona sana o inmune puede tener mascarilla (esto no disminuye la probabilidad de contagio).
+- Miembros añadidos a VirusParameters: probabilityOfSuccessWithMasc
+- Como se muestra: emoji con mascarilla.
+
+
+- Nombre: Muerte
+- Descripción: Solo una persona infectada tiene probabilidad de morir.
+- Miembros añadidos a VirusParameters: probabilityOfSuccessDead
+- Como se muestra: emoji con mascarilla.
+
+
+- Nombre: Rodeado
+- Descripción: Si una persona sana tiene a su alrededor infectados.
+- Miembros añadidos a VirusParameters: probabilityOfSuccessDead
+- Como se muestra: emoji con mascarilla.
+
+
+- Informe diario:
+ ______________________________________________________________________________________
+ Total:  [00] Dias: [00]
+ Sanos: [0] Enfermos: [00] Inmunes: [00] Muertos: [00] Mascarillas: [00] Rodeados: [0]
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Detener el fin del juego:
+ Si no hay ningún enfermo y ningún rodeado ò si llega a la cantidad de días establecido en el parámetro: VIRUS_TIMELIFE_DAYS
+
+
+ Parámetros del simulador:
+
+ ROWS
+ COLUMNS
+ MSECONDS_PER_DAY
+ VIRUS_TRANSMISSION_PERCENT         = percentage of transmitting the virus
+ VIRUS_TIMELIFE_DAYS                = number of iterations
+ DAYS_TO_BE_INMUNE                  = number of days that have to pass to become immune
+ PROBABILITY_OF_SUCCESS_INFECTED    = 0.0 to 0.9
+ PROBABILITY_OF_SUCCESS_DEAD        = 0.00 to 0.09
+ PROBABILITY_OF_SUCCESS_IMMUNE      = 0.00 to 0.09
+ PROBABILITY_OF_SUCCESS_WITH_MASC   = 0.00 to 0.09
+ PROBABILITY_OF_SUCCESS_SURROUNDED  = 0.0 to 0.9
