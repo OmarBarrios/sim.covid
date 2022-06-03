@@ -1,0 +1,2 @@
+# sim.covid
+Infection simulator
