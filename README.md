@@ -2,10 +2,10 @@
 Infection simulator
 
 ## simulator start
-[!Ha ocurrido un error :(](https://github.com/OmarBarrios/sim.covid/blob/develop/src/main/java/edaii/simcovid/utils/Captura.PNG)
+![Ha ocurrido un error :(](https://github.com/OmarBarrios/sim.covid/blob/develop/src/main/java/edaii/simcovid/utils/Captura.PNG)
 
 ## simulator end
-[!Ha ocurrido un error :(](https://github.com/OmarBarrios/sim.covid/blob/develop/src/main/java/edaii/simcovid/utils/Captura2.PNG)
+![Ha ocurrido un error :(](https://github.com/OmarBarrios/sim.covid/blob/develop/src/main/java/edaii/simcovid/utils/Captura2.PNG)
 
 ## environment variables
  - ROWS
